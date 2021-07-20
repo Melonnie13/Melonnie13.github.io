@@ -2466,11 +2466,12 @@ input, select, textarea {
 		}
 
 		dl.alt dt {
-			display: block;
+			display: flex;
+			justify-content: center;
 			width: 3em;
 			margin: 0;
 			clear: left;
-			/* float: left; */
+			float: left;
 		}
 
 		dl.alt dd {
