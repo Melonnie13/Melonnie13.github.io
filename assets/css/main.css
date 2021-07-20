@@ -2474,7 +2474,8 @@ input, select, textarea {
 		}
 
 		dl.alt dd {
-			margin: 0 0 0 5.5em;
+			margin: 0 0 0 0;
+			align-items: center;
 		}
 
 		dl.alt:after {
