@@ -2466,8 +2466,7 @@ input, select, textarea {
 		}
 
 		dl.alt dt {
-			display: flex;
-			justify-content: center;
+			display: block;
 			width: 3em;
 			margin: 0;
 			clear: left;
