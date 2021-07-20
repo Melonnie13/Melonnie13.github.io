@@ -2633,7 +2633,7 @@ input, select, textarea {
 /* Section/Article */
 
 	section.special, article.special {
-		text-align: left;
+		text-align: center;
 	}
 
 	header.major {
