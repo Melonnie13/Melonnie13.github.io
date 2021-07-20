@@ -2632,7 +2632,8 @@ input, select, textarea {
 
 /* Section/Article */
 .projects:hover{
-	color: #3c1361
+	color: #3c1361;
+	text-decoration: none;
 }
 
 	section.special, article.special {
