@@ -2470,12 +2470,11 @@ input, select, textarea {
 			width: 3em;
 			margin: 0;
 			clear: left;
-			float: left;
+			/* float: left; */
 		}
 
 		dl.alt dd {
-			margin: 0 0 0 0;
-			align-items: center;
+			margin: 0 0 0 5.5em;
 		}
 
 		dl.alt:after {
