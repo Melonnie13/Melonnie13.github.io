@@ -37,6 +37,11 @@ ol, ul {
 	list-style: none;
 }
 
+.image-splash{
+	height: 200px;
+	width: 350px;
+}
+
 blockquote, q {
 	quotes: none;
 }
@@ -316,6 +321,11 @@ input, select, textarea {
 
 	h1, h2, h3, h4, h5, h6 {
 		color: #ffffff;
+	}
+
+	#image-me{
+		border-radius: 50%;
+		width: 250px;
 	}
 
 	blockquote {
@@ -2471,6 +2481,7 @@ input, select, textarea {
 			margin: 0;
 			clear: left;
 			float: left;
+			padding-top: 5px;
 		}
 
 		dl.alt dd {
@@ -2489,6 +2500,10 @@ input, select, textarea {
 
 	dl dt {
 		color: #ffffff;
+	}
+
+	#my-email{
+		font-size: 20px;
 	}
 
 /* Actions */
@@ -3094,7 +3109,7 @@ input, select, textarea {
 		}
 
 		#header.alt {
-			padding: 7em 5em 4em 5em ;
+			padding: 2em 5em 3em 5em ;
 		}
 
 			#header.alt h1 {
@@ -3139,7 +3154,7 @@ input, select, textarea {
 			}
 
 				#header.alt {
-					padding: 6em 4em 3em 4em ;
+					padding: 4em 4em 3em 4em ;
 				}
 
 		}
@@ -3227,7 +3242,8 @@ input, select, textarea {
 		color: #636363;
 		position: absolute;
 		width: 64em;
-		max-width: calc(100% - 4em);
+		/* max-width: calc(100% - 4em); */
+		max-width: 100vw;
 		padding: 1em;
 		background-color: #f7f7f7;
 		border-top-left-radius: 0.25em;
